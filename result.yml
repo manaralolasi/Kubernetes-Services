@@ -17,7 +17,7 @@ spec:
         - name: result-app
           image: nxzcint/result-app
           ports:  
-            - 80
+            - 5001:80
   replicas: 2
   selector:
     matchLabels:
