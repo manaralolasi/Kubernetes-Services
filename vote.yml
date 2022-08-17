@@ -17,7 +17,7 @@ spec:
         - name: vote-app
           image: nxzcint/vote-app
           ports:  
-            - 80
+            - 5000:80
   replicas: 2
   selector:
     matchLabels:
